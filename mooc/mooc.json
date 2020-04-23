@@ -1,0 +1,861 @@
+{
+    "code": 0,
+    "message": "ok",
+    "result": {
+        "answerFormId": 410000026935864,
+        "deadlineTime": 1587633371196,
+        "scorePublished": 1,
+        "effectStatus": 1,
+        "nodes": [
+            {
+                "id": 7756089,
+                "resourceId": 410000041293950,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293950,
+                        "questionType": 1,
+                        "content": "1587629528704",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528703,
+                            1587629528705,
+                            1587629528704,
+                            1587629528702
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 1,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": null,
+                    "singleChoiceQuestionContent": {
+                        "title": "<p>以下关于Google文件系统GFS不正确的说法是哪个？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 0,
+                                "content": "<p>GFS处于Google云计算架构所有核心技术的底层。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>GFS可以用来存储BigTable的子表文件。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>GFS是一个开源的系统。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>GFS可以为第三方应用提供大尺寸文件存储功能。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293950
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756090,
+                "resourceId": 410000041293955,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293955,
+                        "questionType": 1,
+                        "content": "1587629528704",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528705,
+                            1587629528703,
+                            1587629528702,
+                            1587629528704
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 1,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": null,
+                    "singleChoiceQuestionContent": {
+                        "title": "<p>以下关于GFS错误的描述是什么？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 0,
+                                "content": "<p>GFS是在一堆廉价且不可靠的硬件上构建可靠的分布式文件系统。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>GFS将服务器故障视为正常现象。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>GFS利用软件的方法解决系统可靠性问题。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>GFS建立在昂贵但是可靠的硬件存储设备之上。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293955
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756091,
+                "resourceId": 410000041293957,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293957,
+                        "questionType": 1,
+                        "content": "1587629528705",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528703,
+                            1587629528705,
+                            1587629528702,
+                            1587629528704
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 1,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": null,
+                    "singleChoiceQuestionContent": {
+                        "title": "<p>GFS中文件按照固定大小分块，每一个数据块（Chunk）默认大小是？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 0,
+                                "content": "<p>8M</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>64M</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>16M</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>128M</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293957
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756092,
+                "resourceId": 410000041293951,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293951,
+                        "questionType": 1,
+                        "content": "1587629528702",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528703,
+                            1587629528704,
+                            1587629528702,
+                            1587629528705
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 1,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": null,
+                    "singleChoiceQuestionContent": {
+                        "title": "<p>以下关于GFS系统的特点哪个描述是错误的？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 0,
+                                "content": "<p>GFS采用中心服务器模式。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>不缓存数据。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>GFS采用完全分布式的模式。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 0,
+                                "content": "<p>系统在用户态下实现。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293951
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756093,
+                "resourceId": 410000041293952,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293952,
+                        "questionType": 2,
+                        "content": "1587629528702,1587629528704,1587629528703,1587629528705",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528702,
+                            1587629528704,
+                            1587629528703,
+                            1587629528705
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 2,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": {
+                        "title": "<p>以下哪些是Amazon公司的云计算代表产品？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 1,
+                                "content": "<p>弹性计算云EC2</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>非关系型数据库DynamoDB</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>基础存储架构Dynamo</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>简单存储服务S3</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "singleChoiceQuestionContent": null,
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293952
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756094,
+                "resourceId": 410000041293953,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293953,
+                        "questionType": 1,
+                        "content": "1587629528703",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528702,
+                            1587629528703,
+                            1587629528704,
+                            1587629528705
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 1,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": null,
+                    "singleChoiceQuestionContent": {
+                        "title": "MapReduce实现机制中，Map worker产生的中间结果最后保存到哪里，供Reduce worker读取？",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 0,
+                                "content": "Master节点上",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 1,
+                                "content": "Map worker本地硬盘中",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 0,
+                                "content": "远程Reduce worker上",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 0,
+                                "content": "Map worker本地内存中",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            }
+                        ],
+                        "random": 0
+                    },
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293953
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756095,
+                "resourceId": 410000041293958,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293958,
+                        "questionType": 2,
+                        "content": "1587629528702,1587629528703,1587629528704,1587629528705",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528702,
+                            1587629528703,
+                            1587629528704,
+                            1587629528705
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 2,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": {
+                        "title": "MapReduce是一个抽象计算模型，封装实现了哪些细节？",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 1,
+                                "content": "负载均衡",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 1,
+                                "content": "本地化计算",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 1,
+                                "content": "容错处理",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 1,
+                                "content": "并行处理",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            }
+                        ],
+                        "random": 0
+                    },
+                    "singleChoiceQuestionContent": null,
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293958
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756096,
+                "resourceId": 410000041293959,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293959,
+                        "questionType": 2,
+                        "content": "1587629528705,1587629528702,1587629528704,1587629528703",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528705,
+                            1587629528702,
+                            1587629528704,
+                            1587629528703
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 2,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": {
+                        "title": "<p>以下关于MapReduce编程模型的描述正确的有哪些？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 1,
+                                "content": "<p>MapReduce的编程模型包含Map和Reduce两个函数处理过程。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>Map的输出结果是一组</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>Reduce的工作是对相同key的value值进行归并处理。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>对于map和reduce每个过程都由不同的计算机进行并行计算处理。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "singleChoiceQuestionContent": null,
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293959
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756097,
+                "resourceId": 410000041293956,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293956,
+                        "questionType": 2,
+                        "content": "1587629528704,1587629528702,1587629528703,1587629528705",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528704,
+                            1587629528702,
+                            1587629528703,
+                            1587629528705
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 2,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": {
+                        "title": "<p>以下关于BigTable正确的说法有哪些？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 1,
+                                "content": "<p>为第三方应用提供数据结构存储功能。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>BigTable的作用类似于数据库。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>可以为MapReduce提供数据源或者数据结构的存储。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>可以为应用提供简单的数据查询功能。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "singleChoiceQuestionContent": null,
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293956
+                },
+                "sectionData": null
+            },
+            {
+                "id": 7756098,
+                "resourceId": 410000041293954,
+                "resourceType": 0,
+                "children": null,
+                "parentNodeId": -1,
+                "questionData": {
+                    "answerDetail": {
+                        "questionId": 410000041293954,
+                        "questionType": 2,
+                        "content": "1587629528702,1587629528704,1587629528703,1587629528705",
+                        "subQuestionAnswerDetails": null,
+                        "choiceIds": [
+                            1587629528702,
+                            1587629528704,
+                            1587629528703,
+                            1587629528705
+                        ],
+                        "comment": null,
+                        "richComment": null,
+                        "userAttachments": null,
+                        "replyScore": 1.00,
+                        "parentId": null,
+                        "parentType": null,
+                        "lastUsePlatform": 0,
+                        "flag": 0,
+                        "mobJudgeStatus": 0,
+                        "questionStatus": 4
+                    },
+                    "questionScore": 1.00,
+                    "questionAuthStatus": 0,
+                    "type": 2,
+                    "combinationQuestionContent": null,
+                    "fillInTheBlanksQuestionContent": null,
+                    "multipleChoiceQuestionContent": {
+                        "title": "<p>Google分布式锁服务Chubby的作用有哪些？</p>",
+                        "titleAnalyse": null,
+                        "richTitleAnalyse": null,
+                        "attachments": null,
+                        "choicesAnswers": [
+                            {
+                                "correct": 1,
+                                "content": "<p>为GFS提供锁服务，选择Master节点，记录Master的相关描述信息，通过独占锁记录Chunk Server的活跃情况。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528702
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>为MapReduce提供锁服务，记录MapReduce的任务信息。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528704
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>解决分布式系统中数据一致性问题。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528703
+                            },
+                            {
+                                "correct": 1,
+                                "content": "<p>为BigTable提供锁服务，记录子表元信息。</p>",
+                                "analyse": null,
+                                "richAnalyse": null,
+                                "id": 1587629528705
+                            }
+                        ],
+                        "random": 4
+                    },
+                    "singleChoiceQuestionContent": null,
+                    "subjectiveQuestionContent": null,
+                    "trueOrFalseQuestionContent": null,
+                    "multimediaQuestionContent": null,
+                    "pythonQuestionContent": null,
+                    "userScore": 1.00,
+                    "flag": 0,
+                    "submitCount": null,
+                    "rightCount": null,
+                    "id": 410000041293954
+                },
+                "sectionData": null
+            }
+        ],
+        "correctingPeople": "null",
+        "announceAnalysis": 0,
+        "answerLimitTime": null,
+        "paperType": 1,
+        "allowUneffectiveViewSubmit": -1,
+        "allowSupplementarySubmitTimes": 0,
+        "surplusSubmitCount": 0,
+        "startTime": null
+    },
+    "uuid": null
+}
