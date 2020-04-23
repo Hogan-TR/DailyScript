@@ -1,16 +1,30 @@
 import json
+from lxml import etree
 import sys
 
 
 def search(node):
     node_child = node['questionData']
-    ncn = list(v for k,
-               v in node_child.items() if k.endswith('Content') and v)[0]
-    title = ncn['title'].replace('<p>', '').replace('</p>', '')
-    choicesA = ncn['choicesAnswers']
+    G = ''
+    for key, value in node_child.items():
+        if key.endswith('Content') and value:
+            G = key
+            ncn = node_child[key]
+    div = etree.HTML(ncn['title'])
+    title = div.xpath('//text()')[0]
     answer = []
+
+    # type => fillInTheBlanksQuestionContent
+    if G.startswith('fillIn'):
+        answer = ncn['answerList']
+        return {'title': title, 'answer': answer}
+
+    # type => singleChoiceQuestionContent 
+    # or multipleChoiceQuestionContent
+    # or trueOrFalseQuestionContent
+    choicesA = ncn['choicesAnswers']
     for x in choicesA:
-        eachContent = x['content'].replace('<p>', '').replace('</p>', '')
+        eachContent = etree.HTML(x['content']).xpath('//text()')[0]
         if x['correct']:
             answer.append(f'√ {eachContent}')
         else:
