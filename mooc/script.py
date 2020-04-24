@@ -19,9 +19,13 @@ def search(node):
         answer = ncn['answerList']
         return {'title': title, 'answer': answer}
 
-    # type => singleChoiceQuestionContent 
+    # type => trueOrFalseQuestionContent
+    if G.startswith('trueOrFalse'):
+        answer = ['√' if ncn['stdAnswer'] else '×']
+        return {'title': title, 'answer': answer}
+
+    # type => singleChoiceQuestionContent
     # or multipleChoiceQuestionContent
-    # or trueOrFalseQuestionContent
     choicesA = ncn['choicesAnswers']
     for x in choicesA:
         eachContent = etree.HTML(x['content']).xpath('//text()')[0]
@@ -44,7 +48,7 @@ def func(filename):
                 '\n'.join(eachGet['answer'])
             num += 1
             contGet = contGet + words + '\n\n'
-        with open(filename+'.txt', 'w', encoding='utf-8') as f:
+        with open(filename+'.txt', 'a', encoding='utf-8') as f:
             f.write(contGet)
 
 
